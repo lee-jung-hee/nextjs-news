@@ -1,4 +1,4 @@
-export default function NewsDetail({ params }) {
+export default function NewsDetailPage({ params }) {
   const news = params.newsSlug;
   return (
     <div id="news-detail">

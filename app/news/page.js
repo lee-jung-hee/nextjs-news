@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function News() {
+export default function NewsPage() {
   const news = [
     {
       id: 1,
