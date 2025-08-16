@@ -2,7 +2,8 @@ import NewsList from "@/components/NewsList";
 import { getAllNews } from "@/lib/news";
 
 export default async function NewsPage() {
-  const news = getAllNews();
+  const news = await getAllNews();
+
   return (
     <div id="news">
       <h1>News Headline</h1>
